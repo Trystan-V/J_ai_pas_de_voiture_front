@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: rgb(97, 136, 180);
+    background-image: url(/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/voiture_retro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    
+    display: flex;
+    justify-content: center;
+
+    
+}x
