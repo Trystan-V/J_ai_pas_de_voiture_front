@@ -1,15 +1,68 @@
 body {
     margin: 0;
-    background-color: rgb(97, 136, 180);
-    background-image: url(/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/voiture_retro.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    padding: 0;
+    background-color: rgb(97, 136, 180); 
+    font-family: Futura;
+    
+}
+/*Le menu*/
+header {
+    
 }
 
+nav {
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: dodgerblue;
+    position: sticky;
+    top: 0px;
+}
+
+nav li {
+    float : left;
+    width: 15%;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover {
+    color: rgb(255, 217, 0);
+    border-bottom: 2px solid gold;
+}
+
+/* partie avec logo et numéro */
 .logo {
     
     display: flex;
     justify-content: center;
+}
 
-    
-}x
+/* carrousel de photos */
+
+.carrousel {
+    margin-bottom: 32em;
+    display: flex;
+  }
+  
