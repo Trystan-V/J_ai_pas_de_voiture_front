@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(97, 136, 180); 
+    /* background-color: rgb(97, 136, 180);  */
     font-family: Futura;
+   
     
 }
 /*Le menu*/
@@ -13,7 +14,7 @@ header {
 nav {
     width: 100%;
     margin: 0px auto 40px auto;
-    background-color: dodgerblue;
+    background-color: rgb(90, 142, 194);
     position: sticky;
     top: 0px;
 }
@@ -48,8 +49,9 @@ nav a{
 }
 
 nav a:hover {
-    color: rgb(255, 217, 0);
-    border-bottom: 2px solid gold;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 60px;
 }
 
 /* partie avec logo et numéro */
@@ -57,12 +59,56 @@ nav a:hover {
     
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index:1;
 }
 
-/* carrousel de photos */
+/* carrousel de photos presentation */
 
-.carrousel {
+/* .carrousel {
     margin-bottom: 32em;
     display: flex;
-  }
-  
+    position: relative;
+    z-index:2;
+    max-width: 20%;
+  } */
+.qui {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#intro_qui {
+    font-size: 50%;
+}
+
+#intro {
+    
+    max-width: 35%;
+}
+
+
+
+.ou {
+    background-color: steelblue;
+    color: white;
+}
+
+.chiffres {
+
+}
+
+.confiance {
+    background-color: white;
+}
+
+.tarifs {
+    background-color: steelblue;
+    color: white;
+}
+
+.picto {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
