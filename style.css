@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    width: 100%;
+    width: auto;
     margin: 0px auto 40px auto;
     background-color: rgb(90, 142, 194);
     position: sticky;
@@ -21,7 +21,7 @@ nav {
 }
 
 nav li {
-    float : left;
+    display: inline;
     width: 15%;
     text-align: center;
 }
@@ -185,5 +185,5 @@ nav a:hover {
 .vehicule {
     display: flex;
     flex-direction: row;
-    background: url(/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/voiture2.jpg);
+    background: url(/J_ai_pas_de_voiture_front/pics/voiture2.jpg);
 }
