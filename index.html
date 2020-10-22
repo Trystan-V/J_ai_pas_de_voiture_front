@@ -22,15 +22,17 @@
     <main>
         <div class="logo">
             <img src="logo.png" alt="logo J'ai pas de voiture">
-       <!-- </div>  
+       </div>  
         <!-- Carrousel de photo -->
-        <!-- <div class="carrousel">
-            <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/photos pour carrousel/voiture carrousel1.jpg" alt=""> -->
-            <!-- <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/photos pour carrousel/velo carrousel 2.jpg" alt="">
-            <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/photos pour carrousel/carrousel camionnette2.jpg" alt=""> -->
+         <div class="pic-ctn">
+             
+                <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/photos pour carrousel/voiture carrousel1.jpg" alt=""> 
+                <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/photos pour carrousel/velo carrousel 2.jpg" alt="">
+                <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/photos pour carrousel/carrousel camionnette2.jpg" alt=""> 
+        
         </div>
         <section class="qui">
-            <h2 id="titre_qui">Qui somme nous</h2>
+            <h2 id="titre_qui">Qui sommes nous</h2>
             <p id="intro">
                 Créé en <em>1863</em>, Jaipasdevoiture est une <em>entreprise familiale</em> de location de véhicule.
 Avant tout orienté vers la <em>satisfaction du client</em>, notre société s’est toujours efforcé de
@@ -55,21 +57,34 @@ besoin ou vos envies.
                 <li>Tours</li>
                 <li>Reims</li>
                 <li>Lille</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Charleroi</li>
+                <li>Liège</li>
+            </ul>
+            <ul>
+                <li>Mâcon</li>
+                <li>Montauban</li>
+                <li>Quimper</li>
+                <li>Caen</li>
+                <li>Le Havre</li>
+                <li>Dijon</li>
+                <li>Strasbourg (bientôt)</li>
             </ul>
         </section>
         <section class="chiffres">
             <h2>Chiffres Clés</h2>
+            <ul>
+                <li>plus de 100.000 clients satisfaits</li>
+                <li>2800 véhicules</li>
+                <li>157 ans</li>
+                <li>50 employés</li>
+                <li>13 agences</li>
+                <li>1 passion</li>
+            </ul>
         </section>
         <section class="confiance">
             <h2>Ils nous font confiances</h2>
             <div class="picto">
-                <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/avis verifiés.jpg" alt="">
+                <!-- <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/avis verifiés.jpg" alt=""> -->
                 <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/ELUMA_TRANS_SRO_114839_250x141.png" alt="">
                 <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/systemeu.png" alt="">
                 <img src="/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/kompass-1-logo-png-transparent.png" alt="">
@@ -79,10 +94,54 @@ besoin ou vos envies.
         </section>
         <section class="tarifs">
             <h2>Tarifs</h2>
+            <div class="vehicule">
+                <p id="voiture">12€/jour<br>
+                    300€ de caution<br>
+                    Assurance<br>
+                    supplémentaire optionnel</p>
+                
+                <p id="vélo">8€/jours <br>
+                    Pas de caution <br>
+                    Location de casque <br>
+                    gratuite <br>
+                    </p>
+
+                
+                <p id="camion">30€/jours <br>
+                    500€ de caution <br>
+                    Assurance <br>
+                    supplémentaire optionnel</p>
+                
+                <p id="besoin">Contactez-nous <br>
+                    pour nous<br>
+                     faire part<br>
+                     de vos besoins
+                </p>
+            </div>
         </section>
         <section class="contact">
             <h2>Nous contacter</h2>
-            <form action=""></form>
+            <form method="post" action="form.php">
+                <div class="formulaire">
+                    <label for="Nom">Nom</label>
+                    <input type="text" id="Nom" name="Nom">
+                </div>
+                <div class="formulaire">
+                    <label for="Titre">Titre</label>
+                    <input type="text" id="Titre" name="Titre">
+                </div>
+                <div class="formulaire">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message">
+                </div>
+                <!-- <div class="formulaire">
+                    <label for="captcha">captcha</label>
+                    <input type="text" id="captcha">
+                </div> -->
+                <div class="formulaire">
+                    <input type="button" value="Envoyer">
+                </div>
+              </form>
         </section>
     </main>
     <footer>
