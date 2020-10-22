@@ -1,0 +1,15 @@
+#menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    list-style: none;
+}
+
+#menu a {
+    display: inline-block;
+    margin: 0 30px;
+}
