@@ -8,7 +8,7 @@ body {
 }
 /*Le menu*/
 header {
-    z-index: inherit 1;;
+    z-index: inherit 1;
  
 }
 
@@ -56,16 +56,23 @@ nav a:hover {
 }
 
 /* partie avec logo et numéro */
+.carrousel {
+    display: flex;
+    display: inline;
+}
+
 .logo {
     
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    z-index: 2;;
+     position: absolute;
+     padding-top: 15%;
+     padding-left: 25%;
+
 }
 
 /* carrousel de photos presentation */
+.carrousel {
 
+}
   
   @keyframes display {
     0% {
@@ -91,8 +98,11 @@ nav a:hover {
   }
   
   .pic-ctn {
-    z-index: 3;;
- 
+    position: relative;
+    z-index: 3;
+
+    justify-content: center;
+    align-items: center;
 
   }
   
@@ -102,6 +112,11 @@ nav a:hover {
     left: calc(50% - 100px);
     opacity: 0;
     animation: display 10s infinite;
+    margin-left: -50%;
+    
+ 
+    
+    
   }
   
   img:nth-child(2) {
