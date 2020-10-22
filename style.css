@@ -8,7 +8,8 @@ body {
 }
 /*Le menu*/
 header {
-    
+    z-index: inherit 1;;
+ 
 }
 
 nav {
@@ -60,14 +61,11 @@ nav a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    z-index:1;
+    z-index: 2;;
 }
 
 /* carrousel de photos presentation */
-.pic-ctn {
-    width: 100vw;
-    height: 200px;
-  }
+
   
   @keyframes display {
     0% {
@@ -93,10 +91,9 @@ nav a:hover {
   }
   
   .pic-ctn {
-    position: relative;
-    width: 100vw;
-    height: 300px;
-    margin-top: 15vh;
+    z-index: 3;;
+ 
+
   }
   
   .pic-ctn > img {
@@ -119,6 +116,8 @@ nav a:hover {
   img:nth-child(5) {
     animation-delay: 8s;
   }
+
+
 
 .qui {
     display: flex;
