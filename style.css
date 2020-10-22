@@ -170,4 +170,5 @@ nav a:hover {
 .vehicule {
     display: flex;
     flex-direction: row;
+    background: url(/Users/trystansimplon/Documents/J_ai_pas_de_voiture_front/pics/voiture2.jpg);
 }
