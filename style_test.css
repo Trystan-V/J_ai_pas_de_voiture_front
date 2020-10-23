@@ -1,15 +1,105 @@
-#menu {
-    padding: 0;
+body {
     margin: 0;
-    text-align: center;
+    padding: 0;
+    font-family: 'Commissioner', sans-serif;
+    
 }
+
+/* CSS pour le menu  */
+
+#menu {
+     text-align: center;
+    background-color: steelblue;  
+    margin: 0px auto 0px auto;   
+}
+
+
 
 #menu li {
     display: inline;
     list-style: none;
+    width: auto; 
+    
 }
 
 #menu a {
     display: inline-block;
     margin: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0 20px 0;
+    width: 10%;
+}
+
+#menu a:hover {
+    background-color: rgb(89, 165, 228);
+    color: honeydew;
+    border-radius: 10px;
+    width: 10%;
+}
+
+/* Page d'accueil */
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0%;
+}
+
+.accueil {
+    width: 100%;
+    background-image: url(photos_pour_carrousel/voiture_carrousel1_resultat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20%; */
+    }
+
+#num_picto {
+    display: flex;
+    margin-top: 36%;
+    background-color: steelblue;
+    
+}
+
+#numero {
+    color: white;
+    width: 50%;
+    padding: 10%;
+
+}
+
+#reseaux img {
+    max-width: 5%;
+    float: right;
+}
+
+/* Qui sommes nous */
+
+
+.qui{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    width: 100%;
+  }
+  .qui > div{
+    flex: 0 0 25%;
+    padding: 20px 0px;
+  }
+
+
+#intro {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 20%;
+}
+
+#vieux {
+    max-width: 70%;
+    border-radius: 10px;
 }
