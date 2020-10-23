@@ -161,3 +161,21 @@ h2 {
 .confiance h2 {
     text-align: right;
 }
+
+/* Section Tarifs  */
+
+.vehicule {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+
+}
+
+.voiture {
+    background-image: url(pics/voiture2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Section Formulaire */
