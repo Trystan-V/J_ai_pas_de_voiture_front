@@ -85,6 +85,7 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     margin: 10px;
+    margin-top: 10%;
     width: 100%;
   }
   .qui > div{
@@ -97,9 +98,66 @@ h1 {
     width: 50%;
     margin-right: 10%;
     margin-left: 20%;
+    
+}
+
+#intro p {
+    line-height: 26px;
 }
 
 #vieux {
     max-width: 70%;
     border-radius: 10px;
+}
+
+h2 {
+    font-size: 220%;
+    font-family: 'Merriweather Sans';
+}
+
+/* Ou nous trouver */
+
+.ou {
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    margin: 10px;
+    margin-top: 10%;
+    width: 100%;
+    text-align: right;
+}
+
+#ou_text {
+    flex-flow: column wrap;
+}
+
+.ou ul {
+    font-size: 200%;
+    list-style: none;
+}
+
+/* Section chiffres clés */
+
+.chiffres {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    margin-top: 10%;
+    width: 100%;
+}
+.chiffres > div{
+    flex: 0 0 25%;
+    padding: 20px 0px;
+  }
+
+  /* Ils nous font confiance */
+
+  .picto {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.confiance h2 {
+    text-align: right;
 }
