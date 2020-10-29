@@ -31,7 +31,7 @@ body {
     text-decoration: none;
     color: #707070;
     padding: 10px 0 20px 0;
-    width: 10%;
+    width: 11%;
 }
 
 #menu a:hover {
@@ -245,6 +245,7 @@ h2 {
 .contact h2 {
     text-align: center;
     background-color: #B7E3E6;
+    
 }
 .contact div {
     display: flex;
@@ -272,7 +273,6 @@ h2 {
    
     
 }
-
 
 /* ////////////////////////////////////////////////////////IPAD\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
