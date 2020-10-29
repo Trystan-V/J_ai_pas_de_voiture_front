@@ -162,7 +162,7 @@ h2 {
 .chiffres {
     display: flex;
     flex-flow: row wrap;
-    margin: 10px;
+    margin: 10%;
     margin-top: 10%;
     width: 100%;
     color: #707070;
@@ -173,6 +173,11 @@ h2 {
   }
 
   /* Ils nous font confiance */
+
+  .confiance {
+    margin: 10%;
+
+  }
 
   .picto {
     max-height: 100px;
@@ -187,6 +192,13 @@ h2 {
 
 /* Section Tarifs  */
 
+.tarifs {
+    background-color: #B7E3E6;
+}
+
+.tarifs h2 {
+    margin: 10%;
+}
 
 .vehicule {
     display: flex;
